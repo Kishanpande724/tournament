@@ -1,0 +1,215 @@
+/*Both homepage and tournamentpage*/
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(background2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+}
+
+/* Header Styling */
+header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden; /* Hides the images that are outside the container */
+    border-radius: 10px;
+}
+
+/* Carousel Styling */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Slide Styling */
+.carousel-slide {
+    min-width: 100%;
+    transition: opacity 1s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation buttons */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+/* Tournaments Section Styling */
+.Upcoming{
+    color: #f0f2f5;
+    border: 1px solid grey;
+    width: 400px;
+    text-align: center;
+    margin-left: 520px;
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.tournaments {
+    padding: 30px;
+    text-align: center;
+    color: black; 
+}
+
+.tournaments h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.tournament-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tournament-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.tournament-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tournament-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.tournament-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tournament-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.register-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: sticky;
+}
+
+.register-btn:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+.Foot{
+    height: 500px;
+}
